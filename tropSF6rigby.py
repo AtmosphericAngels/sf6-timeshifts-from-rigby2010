@@ -27,8 +27,7 @@ from pathlib import Path
 ###############################################
 
 ds = xarray.open_dataset(
-    r"C:\WiMi_ab_Maerz2019\Troposphere\acp-10-10305-2010-"
-    r"supplement\RIGBY_2010_SF6_MOLE_FRACTION_1970_2008.nc"
+    r"C:\acp-10-10305-2010-supplement\RIGBY_2010_SF6_MOLE_FRACTION_1970_2008.nc"
 )
 ds
 sf6 = ds.SF6
